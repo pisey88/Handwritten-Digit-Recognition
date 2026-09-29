@@ -1,6 +1,6 @@
 # Handwritten-Digit-Recognition
 
-#**Dataset and Preprocessing**
+**Dataset and Preprocessing**
 **How many training and test images are there?**
 There are 60,000 training, 10,000 test.
 - Training set: 60,000 images (mnist_train.csv).
@@ -21,3 +21,7 @@ Raw pixel intensities range from `0` (black) to `255` (white). Dividing by `255.
 
 **Why must training and test data remain separate?**
 The training set is used strictly to learn the model's parameters (weights $W$ and biases $b$). The test set acts as unseen data to evaluate how well the model **generalizes**. If test data leaks into training, evaluation metrics become artificially high, making it impossible to detect overfitting.
+
+
+<img width="990" height="476" alt="image" src="https://github.com/user-attachments/assets/9cc505d3-8644-4aed-a14a-6073d80b097f" />
+
